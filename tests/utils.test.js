@@ -18,7 +18,7 @@ describe("Test utils.js", () => {
     expect(kFormatter(1000)).toBe("1k");
     expect(kFormatter(10000)).toBe("10k");
     expect(kFormatter(12345)).toBe("12.3k");
-    expect(kFormatter(9900000)).toBe("9900k");
+    expect(kFormatter(9900000)).toBe("9.9M");
   });
 
   it("should test encodeHTML", () => {
